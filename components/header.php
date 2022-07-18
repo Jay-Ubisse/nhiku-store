@@ -3,11 +3,13 @@
     <form method="post">
         <input type="search" name="search">
         <input type="submit" value="Pesuisar">
-        <a href="#">Entrar</a>
-        <a href="#">Registrar-se</a>
+        <div>
+            <a href="#">Entrar</a>
+            <a href="#">Registrar-se</a>
+        </div>
     </form>
 </section>
-<section id="nav">
+<section id="menu">
     <nav>
         <ul id="nav">
             <li><a href="#">Inicio</a></li>
