@@ -12,7 +12,7 @@
 <section id="menu">
     <nav>
         <ul id="nav">
-            <li><a href="#">Inicio</a></li>
+            <li><a href="index.php">Inicio</a></li>
             <li class="dropdown">
                 <a href="#">Celulares</a>
                 <ul>

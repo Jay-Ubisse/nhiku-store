@@ -7,6 +7,10 @@
     <title>Registrar-se - Nhiku vendas</title>
     <link rel="stylesheet" href="./styles/global.css">
     <link rel="stylesheet" href="./styles/signup.css">
+    <link rel="stylesheet" href="./styles/errors.css">
+    <script src="./scripts/js/jquery-3.6.0.js"></script>
+    <script src="./scripts/js/jquery.validate.js"></script>
+    <script src="./scripts/js/signup.js"></script>
 </head>
 <body>
     <header>
@@ -15,7 +19,7 @@
         ?>
     </header>
     <main>
-        <form action="addcustomer.php" method="post">
+        <form action="addcustomer.php" method="post" id="signup">
             <h1>Por favor, introduza a sua informacao.</h1>
             <table border="0" cellspacing="1" cellpadding="3">
                 <tr>
@@ -31,10 +35,10 @@
                     <td><label for="name">Nome completo</label></td><td><input type="text" name="name" size="40"></td>
                 </tr>
                 <tr>
-                    <td><label for="adress1">Endereco</label></td><td><input type="text" name="adress1" size="80"></td>
+                    <td><label for="address1">Endereco</label></td><td><input type="text" name="address1" size="80"></td>
                 </tr>
                 <tr>
-                    <td><label for="adrees2">Informacoes adicionais do endereco</label></td><td><input type="text" name="adress2" size="80"></td>
+                    <td><label for="addrees2">Informacoes adicionais do endereco</label></td><td><input type="text" name="address2" size="80"></td>
                 </tr>
                 <tr>
                     <td><label for="city">Provincia</label></td><td><input type="text" name="city" size="30"></td>
