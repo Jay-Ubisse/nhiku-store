@@ -68,7 +68,11 @@ header nav {
     border-top: 1px solid white;
     width: 80%;
 }
-
+#menu img {
+    color: white;
+    width: 30px;
+    height: 30px;
+}
 #nav {
     margin: 0 auto;
     width: 600px;

@@ -14,7 +14,7 @@
         <ul id="nav">
             <li><a href="#">Inicio</a></li>
             <li class="dropdown">
-                <a href="#">Cellares</a>
+                <a href="#">Celulares</a>
                 <ul>
                     <li><a href="#">Samsung</a></li>
                     <li><a href="#">Apple</a></li>
@@ -33,4 +33,5 @@
             <li><a href="#">Aparelhos de som</a></li>
         </ul>
     </nav>
+    <img src="./img/shopping-cart-fill.svg" alt="shopping cart icon">
 </section>
