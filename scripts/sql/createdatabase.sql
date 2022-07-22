@@ -39,10 +39,8 @@ complete_name varchar(50),
 address_line1 varchar(255),
 address_line2 varchar(255),
 city varchar(50),
-state varchar(50),
-zipcode varchar(10),
-country varchar(50),
-cellphone_no varchar(15),
+province varchar(50),
+phone varchar(9),
 primary key(email_address)
 );
 

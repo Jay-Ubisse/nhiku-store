@@ -19,7 +19,7 @@
         ?>
     </header>
     <main>
-        <form action="addcustomer.php" method="post" id="signup">
+        <form action="./scripts/php/addcustomer.php" method="post" id="signup">
             <h1>Por favor, introduza a sua informacao.</h1>
             <table border="0" cellspacing="1" cellpadding="3">
                 <tr>
