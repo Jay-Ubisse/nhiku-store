@@ -1,0 +1,40 @@
+main {
+    height: calc(100vh - 120px);
+    margin: 0;
+    padding: 1px;
+    background-color: white;
+}
+main > form {
+    background-color: #023e8a;
+    width: fit-content;
+    margin: 30px auto;
+    padding: 15px;
+    border-radius: 15px;
+}
+main  input {
+    border-radius: 3px;
+    margin: 5px 4px;
+}
+main label {
+    color: white;
+}
+main > form > h1 {
+    width: fit-content;
+    margin: auto;
+    color: white;
+    margin-bottom: 30px;
+}
+main > form > div {
+    width: fit-content;
+    margin: auto;
+    margin-top: 30px;
+}
+main > form > div > input {
+    padding: 10px;
+    border-radius: 6px;
+    color: #023e8a;
+    background-color: white;
+}
+input.disabled {
+    color: white;
+}

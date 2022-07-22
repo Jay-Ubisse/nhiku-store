@@ -22,7 +22,7 @@ header > #logo > form {
     top: 15px;
     right: 5px;
 }
-input {
+header > #logo > form > input {
     border-radius: 10px;
     border-style: none;
     margin: 0 4px;

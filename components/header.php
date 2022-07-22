@@ -5,7 +5,7 @@
         <input type="submit" value="Pesuisar">
         <div>
             <a href="#">Entrar</a>
-            <a href="#">Registrar-se</a>
+            <a href="signup.php">Registrar-se</a>
         </div>
     </form>
 </section>
@@ -33,5 +33,5 @@
             <li><a href="#">Aparelhos de som</a></li>
         </ul>
     </nav>
-    <img src="./img/shopping-cart-fill.svg" alt="shopping cart icon">
+    <img src="./img/shopping-cart.png" alt="shopping cart icon">
 </section>
