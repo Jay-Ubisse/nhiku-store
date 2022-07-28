@@ -4,8 +4,15 @@
         <input type="search" name="search">
         <input type="submit" value="Pesuisar">
         <div>
-            <a href="#">Entrar</a>
-            <a href="signup.php">Registrar-se</a>
+        <?php
+            if(isset($_SESSION["login"])) {
+                $row = $_SESSION["login"];
+                echo "<p>" . $row['complete_name'] . "</p>";
+            } else {
+                echo "<a href='login.php'>Entrar</a>";
+                echo "<a href='signup.php'>Registrar-se</a>";
+            }     
+        ?>
         </div>
     </form>
 </section>

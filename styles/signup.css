@@ -4,16 +4,21 @@ main {
     padding: 1px;
     background-color: white;
 }
+main a {
+    text-decoration: none;
+    color: white;
+}
 main > form {
     background-color: #023e8a;
     width: fit-content;
-    margin: 30px auto;
+    margin: 10px auto 40px auto;
     padding: 15px;
     border-radius: 15px;
 }
 main  input {
     border-radius: 3px;
     margin: 5px 4px;
+    border-style: none;
 }
 main label {
     color: white;
@@ -29,12 +34,25 @@ main > form > div {
     margin: auto;
     margin-top: 30px;
 }
-main > form > div > input {
+.button {
     padding: 10px;
     border-radius: 6px;
     color: #023e8a;
     background-color: white;
+    border-style: none;
 }
 input.disabled {
     color: white;
+}
+.failedbox {
+    width: fit-content;
+    margin: 60px auto 0 auto;
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+.loginfailed {
+    margin: 0;
+    color: black;
 }

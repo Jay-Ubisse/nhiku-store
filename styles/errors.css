@@ -1,6 +1,7 @@
 label.error {
-    color: red;
+    color: white;
     font-size: small;
+    font-weight: bold;
     display: block;
-    margin-left: 80px;
+    margin-left: 1rem;
 }

@@ -12,6 +12,7 @@
 <body>
     <header>
         <?php
+            session_start();
             include "components/header.php";
         ?>
     </header>

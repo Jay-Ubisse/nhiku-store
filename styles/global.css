@@ -34,6 +34,10 @@ header > #logo > form > div {
     margin-left: 12px;
     margin-right: 12px;
 }
+header > #logo > form > div > p {
+    color: white;
+    margin: 0 4px;
+}
 header > #logo > form > div > a {
     text-decoration: none;
     color: white;
@@ -67,11 +71,14 @@ header nav {
     padding-top: 10px;
     border-top: 1px solid white;
     width: 80%;
+    position: relative;
 }
 #menu img {
-    color: white;
     width: 30px;
     height: 30px;
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
 }
 #nav {
     margin: 0 auto;
