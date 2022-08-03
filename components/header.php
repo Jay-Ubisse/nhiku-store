@@ -40,5 +40,5 @@
             <li><a href="#">Aparelhos de som</a></li>
         </ul>
     </nav>
-    <img src="./img/shopping-cart.png" alt="shopping cart icon">
+    <img src="./img/icons/shopping-cart.png" alt="shopping cart icon">
 </section>
