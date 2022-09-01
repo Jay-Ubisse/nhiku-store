@@ -31,10 +31,6 @@
                     <td><input type="text" name="brand"></td>
                 </tr>
                 <tr>
-                    <td><label for="name">Nome completo</label></td>
-                    <td><input type="text" name="name"></td>
-                </tr>
-                <tr>
                     <td><label for="model">Modelo do item</label></td>
                     <td><input type="text" name="model"></td>
                 </tr>
